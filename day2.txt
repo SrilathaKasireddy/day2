@@ -1,0 +1,34 @@
+Differences between Browser JS(console) v Nodejs:
+*Javascript is used in frontend development.whereas, nodejs is used in backend development.
+*Javascript is used in client side & nodejs is used in server side.
+*Javascript is a scripting language whereas ,nodejs is a javascript runtime environment.
+*Javascript is capable enough to add html and play with the DOM.nodejs doesnt have capability to add html tags.
+*Javascript can run in any browser engine.v8 is the javascript engine inside nodejs that parses and runs javascript.
+
+
+How does the browser renders a website:simple steps -
+*parse html
+*parse css
+*parse both dom & cssom
+*execute Javascript 
+*merges both dom & cssom to construct render tree
+*layout & paint 
+
+
+Types of data in Javascript:
+*typeof(1)  - number
+*typeof(1.1) - number
+*typeof('1.1')- string
+*typeof(true) -boolean
+*typeof(null)  -null
+*typeof(undefined)- undefined
+*typeof([])  -[]
+*typeof({}-) {}
+*typeof(NaN) -NaN
+
+
+
+PROTOTYPE:
+*Prototype property is basically an object (also known as Prototype object), where we can attach methods and properties in a prototype object, which enables all the other objects to inherit these methods and properties.
+*JavaScript is a prototype based language,  so, whenever we create a function using JavaScript, JavaScript engine adds a prototype property inside a function.
+
